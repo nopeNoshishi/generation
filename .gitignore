@@ -164,7 +164,7 @@ vae/
 #.idea/
 
 # poetry
-poetry.lock
+/poetry.lock
 
 #Mac
-.DS_Store
+/.DS_Store
