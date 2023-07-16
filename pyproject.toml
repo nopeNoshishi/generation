@@ -1,20 +1,14 @@
 [tool.poetry]
-name = "generation"
+name = "vae"
 version = "0.1.0"
 description = ""
-authors = ["nopeNoshishi <nope@noshishi.co.jp>"]
+authors = ["nopeNoshishi <noah.of.havegreat@icloud.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.10"
-numpy = "^1.24.1"
-tensorflow-estimator = "^2.11.0"
-tensorflow = "^2.11.0"
-jupyter = "^1.0.0"
-pandas = "^1.5.3"
-notebook = "^6.5.2"
-opencv-python = "^4.7.0.68"
-pillow = "^9.4.0"
+python = "^3.11"
+numpy = "^1.25.1"
+torch = "^2.0.1"
 
 
 [build-system]
